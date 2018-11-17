@@ -22,7 +22,7 @@ go install github.com/go-swagger/go-swagger/cmd/swagger
 
 Running standard unit tests:
 ```bash
-go test ./...
+go test -vet off ./...
 ``` 
 
 More advanced tests are run by CI. See [below](#continuous-integration).
